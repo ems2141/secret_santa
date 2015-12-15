@@ -16,6 +16,8 @@ gem 'haml-rails', '~> 0.9.0'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem "capybara"
+  gem "launchy"
 end
 
 
