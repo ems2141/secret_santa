@@ -16,7 +16,7 @@
 :javascript
   $("#santa-list").bind('ajax:success', function(e, data, status, xhr) {
 
-        $('#santa-result-list').show().text((data));
+        $('#santa-result-list').show().html((data));
 
       }).bind('ajax:error', function(e, data, status, xhr) {
         alert("failing!");
