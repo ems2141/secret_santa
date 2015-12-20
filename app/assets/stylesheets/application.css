@@ -11,5 +11,10 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require bootstrap
  *= require_self
  */
+
+#santa-result-list {
+  margin-top: 25px;
+}
