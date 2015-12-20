@@ -1,8 +1,6 @@
 .container
   %h1 Secret Santa
 
-  -#= link_to "Create a form list", new_list_path
-
   %h3 Submit your group participants (comma separated)
 
   = form_tag root_path, remote: true, method: :get, id: "santa-list" do
