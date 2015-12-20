@@ -18,4 +18,13 @@ describe SecretSantaGenerator do
 
     expect(generator.create_list).to eq result
   end
+
+  it 'testing randomizing the selection' do
+    people = ['Ellie', 'Nick', 'Jake', 'Tommy', 'Charlie', 'Merri', 'Joe']
+
+    generator = SecretSantaGenerator.new(people)
+
+    p generator.create_random_list
+
+  end
 end
