@@ -1,5 +1,5 @@
 == Secret Santa Generator
 
-An application to create secret santa groups :)
+An application to create secret santa groups :).  This site is live on heroku: http://secret-santa-esm.herokuapp.com
 
 Future features include a mailer to assign each group member a giftee.
